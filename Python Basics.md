@@ -19,20 +19,7 @@
 
 ---
 
-- ###### int/float:
-```python
-print (type(2+4)) #int
-print (type(2/4)) #float
-print (type(0))
-print (type(9.9+1.1)) 
-print (2 ** 3) # n1 Power of n2
-print (5 // 4) #Round Down the number
-print (6.5 % 4) #Modules
-```
-
----
-
-##### Math Functions
+#### Math Functions
 
 ```python
 print (round(3.1)) #round down for the most near integer number
@@ -44,7 +31,7 @@ print (int('0b101' , 2)) #Convert to Decimal
 
 ---
 
-##### Operator precedence
+#### Operator precedence
 
 ```python
 print ((20 - 3) + 2 ** 2)  # 17 + 4 = 21
@@ -56,7 +43,7 @@ print ((20 - 3) + 2 ** 2)  # 17 + 4 = 21
 
 ---
 
-##### Variables
+#### Variables
 Variables are ways for us to store information on our computer and programs. So we can hold perhaps user inputs like values.
 
 There is specific rules that Python has as a whole:
@@ -85,6 +72,48 @@ PI = 3.14 #Constants
 a,b,c = 1,2,3 #rapidly assign value to variable
 print (c , a , b)
 ```
+
+---
+#### Expression VS Statements
+
+**Expression**: is a piece of code that produces a value.
+**Statement**: on the other hand is an entire line of code that preforms some kind of action.
+
+```python
+iq = 100
+user_age = iq/5 #(iq/5) is an expression
+				#(user_age = iq/5) is a statement
+```
+
+---
+#### Augmented assignment operator
+
+```python
+value = 5
+value = value + 2 #OLD way
+value += 5 # Augmented assignment operator
+value -= 2
+value *= 2
+
+print (value)
+```
+
+---
+
+#### int/float
+```python
+print (type(2+4)) #int
+print (type(2/4)) #float
+print (type(0))
+print (type(9.9+1.1)) 
+print (2 ** 3) # n1 Power of n2
+print (5 // 4) #Round Down the number
+print (6.5 % 4) #Modules
+```
+
+---
+
+
 
 ---
 
